@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NgScrollbarModule } from 'ngx-scrollbar';
-import { DragulaModule } from 'ng2-dragula';
 import { ResizableModule } from 'angular-resizable-element';
 import { DirectivesModule } from '../../theme/directives/directives.module';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
@@ -24,7 +23,6 @@ export const routes: Routes = [
     RouterModule.forChild(routes),
     FormsModule,
     NgScrollbarModule,
-    DragulaModule.forRoot(),
     ResizableModule,
     DirectivesModule
   ],

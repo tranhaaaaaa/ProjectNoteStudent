@@ -22,7 +22,6 @@ import { PipesModule } from './theme/pipes/pipes.module';
 
 import { AppRoutingModule } from './app.routing';
 import { AppSettings } from './app.settings';
-
 import { AppComponent } from './app.component';
 import { PagesComponent } from './pages/pages.component';
 import { HeaderComponent } from './theme/components/header/header.component';

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { DirectivesModule } from '../../theme/directives/directives.module';
 import { BarComponent } from './bar/bar.component';
 import { PieComponent } from './pie/pie.component';
@@ -19,7 +18,6 @@ export const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    NgxChartsModule,
     DirectivesModule,
     RouterModule.forChild(routes)
   ],
