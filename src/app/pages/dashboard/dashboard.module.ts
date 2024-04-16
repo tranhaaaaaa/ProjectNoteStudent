@@ -21,13 +21,13 @@ export const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    // FormsModule,
+   //  FormsModule,
     // NgScrollbarModule,
     // NgxChartsModule,
     // DirectivesModule,
   ],
   declarations: [
-    // DashboardComponent,
+     DashboardComponent,
     // InfoPanelsComponent,
     // VisitorsComponent,
     // CostComponent,
