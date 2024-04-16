@@ -11,7 +11,7 @@ export class User {
 }
 
 export class UserProfile {  
-  name: string;
+  name: string; 
   surname: string;  
   birthday: Object;
   gender: string;
