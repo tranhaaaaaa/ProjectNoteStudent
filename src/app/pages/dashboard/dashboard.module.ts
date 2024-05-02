@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+import { GridAllModule } from '@syncfusion/ej2-angular-grids';
+import { FormsModule } from '@angular/forms';
 // import { FormsModule } from '@angular/forms';
 // import { NgScrollbarModule } from 'ngx-scrollbar';
 // import { NgxChartsModule } from '@swimlane/ngx-charts';
@@ -20,8 +22,9 @@ export const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
+    GridAllModule,
     RouterModule.forChild(routes),
-   //  FormsModule,
+     FormsModule,
     // NgScrollbarModule,
     // NgxChartsModule,
     // DirectivesModule,
